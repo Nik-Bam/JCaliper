@@ -20,4 +20,4 @@ Estimation of distance between an object-oriented design and the corresponding o
 ## Contributors
 
 * **Theodoros Haikalis** - [teohaik](https://github.com/teohaik)
-* **Nikos Bampamis** - [Nik-Bam](https://github.com/Nik-Bam)
+* **Nikos Bampamis** - [nikbam](https://github.com/nikbam)
