@@ -5,16 +5,16 @@ package gr.uom.jcaliper.heuristics;
  */
 public interface IMove {
 
-	public void setMoveId(int moveId);
+    public void setMoveId(int moveId);
 
-	public int getMoveId();
+    public int getMoveId();
 
-	public double getMoveGain();
+    public double getMoveGain();
 
-	public boolean isBetterThan(double threshold);
+    public boolean isBetterThan(double threshold);
 
-	public boolean isBetter();
+    public boolean isBetter();
 
-	public int getTabuAttribute();
+    public int getTabuAttribute();
 
 }

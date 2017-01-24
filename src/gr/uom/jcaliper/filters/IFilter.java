@@ -5,6 +5,6 @@ import gr.uom.jcaliper.system.CratSystem;
 
 public interface IFilter {
 
-	public void applyFilter(CratState state, CratSystem system);
+    public void applyFilter(CratState state, CratSystem system);
 
 }

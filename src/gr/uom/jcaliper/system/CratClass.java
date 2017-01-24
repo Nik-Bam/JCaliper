@@ -8,55 +8,55 @@ import java.util.Set;
  */
 public class CratClass extends EntitySet {
 
-	// Constructors
+    // Constructors
 
-	/**
-	 * 
-	 */
-	public CratClass() {
-		super();
-	}
+    /**
+     *
+     */
+    public CratClass() {
+        super();
+    }
 
-	/**
-	 * @param id
-	 */
-	public CratClass(int id) {
-		super(id);
-	}
+    /**
+     * @param id
+     */
+    public CratClass(int id) {
+        super(id);
+    }
 
-	/**
-	 * @param collection
-	 */
-	public CratClass(Collection<? extends Integer> collection) {
-		super(collection);
-	}
+    /**
+     * @param collection
+     */
+    public CratClass(Collection<? extends Integer> collection) {
+        super(collection);
+    }
 
-	/**
-	 * @param array
-	 */
-	public CratClass(int[] array) {
-		super(array);
-	}
+    /**
+     * @param array
+     */
+    public CratClass(int[] array) {
+        super(array);
+    }
 
-	/**
-	 * @param set
-	 */
-	public CratClass(Set<? extends Integer> set) {
-		super(set);
-	}
+    /**
+     * @param set
+     */
+    public CratClass(Set<? extends Integer> set) {
+        super(set);
+    }
 
-	// Methods
+    // Methods
 
-	// Presentation
-	@Override
-	public String toString() {
-		return showIdsSet();
-	}
+    // Presentation
+    @Override
+    public String toString() {
+        return showIdsSet();
+    }
 
-	public String showDetails() {
-		return String.format("%-20s", showIdsSet());
-	}
+    public String showDetails() {
+        return String.format("%-20s", showIdsSet());
+    }
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
 }

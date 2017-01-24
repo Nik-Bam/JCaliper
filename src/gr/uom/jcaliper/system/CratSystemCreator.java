@@ -1,29 +1,18 @@
 package gr.uom.jcaliper.system;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.ListIterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import org.eclipse.jdt.core.IJavaProject;
-import org.eclipse.jdt.core.IPackageFragment;
-
-import gr.uom.java.ast.ASTReader;
-import gr.uom.java.ast.ClassObject;
-import gr.uom.java.ast.CompilationUnitCache;
-import gr.uom.java.ast.FieldObject;
-import gr.uom.java.ast.MethodObject;
-import gr.uom.java.ast.SystemObject;
+import gr.uom.java.ast.*;
 import gr.uom.java.ast.association.Association;
 import gr.uom.java.distance.MyAttribute;
 import gr.uom.java.distance.MyClass;
 import gr.uom.java.distance.MyMethod;
 import gr.uom.java.distance.MySystem;
 import gr.uom.jcaliper.loggers.ActivityLogger;
+import org.eclipse.jdt.core.IJavaProject;
+import org.eclipse.jdt.core.IPackageFragment;
+
+import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * @author Panagiotis Kouros

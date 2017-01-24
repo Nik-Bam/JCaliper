@@ -1,11 +1,11 @@
 package gr.uom.jcaliper.system;
 
+import gr.uom.jcaliper.util.IDescribable;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Map;
 import java.util.TreeMap;
-
-import gr.uom.jcaliper.util.IDescribable;
 
 /**
  * @author Panagiotis Kouros
@@ -415,8 +415,7 @@ public class CratSystem implements IEntityPool, IDescribable {
 	}
 
 	/**
-	 * @param name
-	 *            the name to set
+	 * @param name the name to set
 	 */
 	public void setName(String name) {
 		this.name = name;
@@ -430,8 +429,7 @@ public class CratSystem implements IEntityPool, IDescribable {
 	}
 
 	/**
-	 * @param systemType
-	 *            the systemType to set
+	 * @param systemType the systemType to set
 	 */
 	public void setSystemType(int systemType) {
 		this.systemType = systemType;
@@ -463,8 +461,7 @@ public class CratSystem implements IEntityPool, IDescribable {
 	}
 
 	/**
-	 * @param entities
-	 *            the entities to set
+	 * @param entities the entities to set
 	 */
 	public void setEntities(TreeMap<Integer, CratEntity> entities) {
 		this.entities = entities;
@@ -482,16 +479,14 @@ public class CratSystem implements IEntityPool, IDescribable {
 	}
 
 	/**
-	 * @param classes
-	 *            the classes to set
+	 * @param classes the classes to set
 	 */
 	public void setClasses(TreeMap<Integer, SystemClass> classes) {
 		this.classes = classes;
 	}
 
 	/**
-	 * @param packages
-	 *            the packages to set
+	 * @param packages the packages to set
 	 */
 	public void setPackages(TreeMap<Integer, CratPackage> packages) {
 		this.packages = packages;

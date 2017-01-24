@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package gr.uom.jcaliper.system;
 
@@ -11,54 +11,56 @@ import java.util.Set;
  */
 public class HashedClass extends CratClass {
 
-	protected long hash;
+    protected long hash;
 
-	// constructors
+    // constructors
 
-	/**
-	 * @param id
-	 */
-	public HashedClass(int id) {
-		super(id);
-		updateHash();
-	}
+    /**
+     * @param id
+     */
+    public HashedClass(int id) {
+        super(id);
+        updateHash();
+    }
 
-	/**
-	 * @param collection
-	 */
-	public HashedClass(Collection<? extends Integer> collection) {
-		super(collection);
-		updateHash();
-	}
+    /**
+     * @param collection
+     */
+    public HashedClass(Collection<? extends Integer> collection) {
+        super(collection);
+        updateHash();
+    }
 
-	/**
-	 * @param array
-	 */
-	public HashedClass(int[] array) {
-		super(array);
-		updateHash();
-	}
+    /**
+     * @param array
+     */
+    public HashedClass(int[] array) {
+        super(array);
+        updateHash();
+    }
 
-	public HashedClass(Set<? extends Integer> set) {
-		super(set);
-		updateHash();
-	}
+    public HashedClass(Set<? extends Integer> set) {
+        super(set);
+        updateHash();
+    }
 
-	public HashedClass(HashedClass hashed) {
-		super(hashed);
-		hash = hashed.hash;
-	}
+    public HashedClass(HashedClass hashed) {
+        super(hashed);
+        hash = hashed.hash;
+    }
 
-	// getters and setters
+    // getters and setters
 
-	public long getHash() {
-		return hash;
-	};
+    public long getHash() {
+        return hash;
+    }
 
-	public void updateHash() {
-		hash = calculateHash();
-	}
+    ;
 
-	private static final long serialVersionUID = 1L;
+    public void updateHash() {
+        hash = calculateHash();
+    }
+
+    private static final long serialVersionUID = 1L;
 
 }
